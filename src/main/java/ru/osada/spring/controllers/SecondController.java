@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SecondController {
     @GetMapping("/exit")
     public String sayExit(){
-        return "exit";
+        return "second/exit";
     }
 }
