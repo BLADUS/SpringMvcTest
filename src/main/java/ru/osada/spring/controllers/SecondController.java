@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/second")
 public class SecondController {
     @GetMapping("/exit")
-    public String sayExit(){
+    public String exitPage(){
         return "second/exit";
     }
 }
